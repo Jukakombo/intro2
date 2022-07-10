@@ -1,0 +1,90 @@
+.p1{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+   text-decoration: underline;
+    padding:0;
+    margin: 0;
+
+}
+body{
+    padding: 20px;
+    margin: 0;
+}
+.p2{
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+font-style: italic;
+
+}
+.heading-content{
+    background-color: blue;
+    color:#ffffff;
+    padding: 20px;
+}
+/* card start here */
+#card{
+    background-color: yellow;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+.cards{
+    width: 100px;
+    height: 75px;
+    background:blue;
+    margin:10px;
+    color:#ffffff;
+    font-size: bolder;
+    text-align: center;
+
+}
+/* footer */
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: yellowgreen;
+}
+/* image start from here */
+.image{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color:red;
+    padding:20px;
+}
+.image>img{
+    border-radius: 50%;
+}
+.contactInfo{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Roboto Slab', sans-serif;
+    color:#ffffff
+}
+.contactInfo>p{
+    font-size: 1.5rem;
+}
+/* social media  */
+.socialMedia-brand{
+    color:#ffffff;
+    cursor: pointer;
+    margin:10px;
+    border: 1px solid #fff;
+    padding:10px
+    
+
+}
+.socialMedia{
+    justify-content: space-between;
+    margin:20px
+}
+
+/* anchor*/
+a{
+    color:#ffffff
+}
